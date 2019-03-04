@@ -19,7 +19,7 @@ const Modal = (props) => {
                 <img src={props.pokemon.img} alt="The Pokemon"/>
                 <p>Height: {props.pokemon.height}</p>
                 <p>Weight: {props.pokemon.weight}</p>
-                <p>Weaknesses: {props.pokemon.weaknesses+","}</p>
+                {/* <p>Weaknesses: {props.pokemon.weaknesses+","}</p> */}
             <button onClick={props.close}>close</button>
             </section>
         </div>
